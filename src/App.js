@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getWord } from "./helpers/getWord";
 import { CardWord } from "./components/CardWord";
-4272
-
 
 import { Box, IconButton, Typography } from "@mui/material";
 import CachedIcon from "@mui/icons-material/Cached";
