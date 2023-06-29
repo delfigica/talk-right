@@ -226,5 +226,161 @@ export const words = [
         word: "It's depend",
         pronunciation: 'its dipend',
         translate: 'depende'
+    },
+    {
+        id: 39,
+        word: "Hotel",
+        pronunciation: 'joutchél',
+        translate: 'hotel'
+    },
+    {
+        id: 40,
+        word: "Both",
+        pronunciation: 'bouz',
+        translate: 'ambos'
+    },
+    {
+        id: 41,
+        word: "Costs",
+        pronunciation: 'coustss',
+        translate: 'cuesta'
+    },
+    {
+        id: 42,
+        word: "It's depend",
+        pronunciation: 'its dipend',
+        translate: 'depende'
+    },
+    {
+        id: 43,
+        word: "responsible",
+        pronunciation: 'rispónsabl',
+        translate: 'responsable'
+    },
+    {
+        id: 44,
+        word: "Riding",
+        pronunciation: 'raiding',
+        translate: 'montando bicicleta, caballo, etc.'
+    },
+    {
+        id: 45,
+        word: "Rubbish",
+        pronunciation: 'rabbish',
+        translate: 'basura'
+    },
+    {
+        id: 46,
+        word: "Better",
+        pronunciation: 'beder',
+        translate: 'mejor'
+    },
+    {
+        id: 47,
+        word: "Letter",
+        pronunciation: 'leder',
+        translate: 'carta de papel'
+    },
+    {
+        id: 48,
+        word: "Hug",
+        pronunciation: 'jiug',
+        translate: 'abrazo'
+    },
+    {
+        id: 49,
+        word: "Bus",
+        pronunciation: 'bas',
+        translate: 'colectivo'
+    },
+    {
+        id: 50,
+        word: "Live",
+        pronunciation: 'liv',
+        translate: 'vivir'
+    },
+    {
+        id: 51,
+        word: "There",
+        pronunciation: 'deár',
+        translate: 'allá / allí'
+    },
+    {
+        id: 52,
+        word: "There are",
+        pronunciation: 'der ar',
+        translate: 'hay plural'
+    },
+    {
+        id: 53,
+        word: "There is",
+        pronunciation: 'der is',
+        translate: 'hay singular'
+    },
+    {
+        id: 54,
+        word: "Also",
+        pronunciation: 'olso',
+        translate: 'también'
+    },
+    {
+        id: 55,
+        word: "On it",
+        pronunciation: 'onit',
+        translate: 'En eso'
+    },
+    {
+        id: 56,
+        word: "Developer",
+        pronunciation: 'divéloper',
+        translate: 'desarrollador'
+    },
+    {
+        id: 57,
+        word: "Employees",
+        pronunciation: 'emploiis',
+        translate: 'empleados'
+    },
+    {
+        id: 58 ,
+        word: "Each Other",
+        pronunciation: 'icháder',
+        translate: 'El uno al otro'
+    },
+    {
+        id: 59,
+        word: "Going",
+        pronunciation: 'gouing',
+        translate: 'yendo'
+    },
+    {
+        id: 60,
+        word: "Pain",
+        pronunciation: 'pein',
+        translate: 'dolor'
+    },
+    {
+        id: 61,
+        word: "series",
+        pronunciation: 'siries',
+        translate: 'series'
+    },
+    {
+        id: 62,
+        word: "Argue",
+        pronunciation: 'argiu',
+        translate: 'discutir'
+    },
+    {
+        id: 63,
+        word: "Discussion",
+        pronunciation: 'discáshon',
+        translate: 'debate'
+    },
+    {
+        id: 64,
+        word: "Library",
+        pronunciation: 'laibrari',
+        translate: 'biblioteca'
     }
 ] 
