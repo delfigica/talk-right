@@ -1,18 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 
 import {
   Card,
   Typography,
   Box,
-  IconButton,
   useTheme,
   useMediaQuery,
+  Button,
 } from "@mui/material";
-import RedoIcon from "@mui/icons-material/Redo";
 
-export const CardWord = ({ word }) => {
-  const [showWord, setShowWord] = useState(true);
-
+export const CardWord = ({ word, showWord, setShowWord }) => {
   useEffect(() => {}, [word]);
 
   const theme = useTheme();
@@ -25,7 +22,10 @@ export const CardWord = ({ word }) => {
               width: "600px",
               height: "350px",
               display: "flex",
+              flexDirection: "column",
               alignItems: "center",
+              background: "#232526",
+              color: "white",
             }
           : {
               width: "300px",
@@ -34,15 +34,18 @@ export const CardWord = ({ word }) => {
               alignItems: "center",
               flexDirection: "column",
               justifyContent: "center",
+              background: "#232526",
+              color: 'white'
             }
       }
     >
       <Box
         sx={{
-          width: "85%",
+          height: "80%",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
+          justifyContent: "center",
         }}
       >
         <Typography sx={{ fontSize: "3em" }}>
@@ -53,21 +56,16 @@ export const CardWord = ({ word }) => {
         </Typography>
       </Box>
       <Box>
-        <IconButton
+        <Button
           onClick={() => {
             setShowWord((prev) => {
               return !prev;
             });
           }}
+          sx={{ color: "white", fontWeight: 600, fontSize: "1.1em" }}
         >
-          <RedoIcon
-            sx={
-              laptop
-                ? { fontSize: "2em", rotate: "90deg", cursor: "pointer" }
-                : { fontSize: "1.5em" }
-            }
-          />
-        </IconButton>
+          see pronunciation
+        </Button>
       </Box>
     </Card>
   );
