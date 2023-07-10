@@ -488,7 +488,7 @@ export const words = [
   {
     id: 82,
     word: "Left",
-    pronunciation: "izquierda",
+    pronunciation: "left",
     translate: "izquierda",
   },
   {
