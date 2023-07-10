@@ -2,15 +2,17 @@ import React, { useEffect, useState } from "react";
 import { getWord } from "./helpers/getWord";
 import { CardWord } from "./components/CardWord";
 
-import { Box, IconButton, Typography } from "@mui/material";
-import CachedIcon from "@mui/icons-material/Cached";
+import { Box, Button, Typography } from "@mui/material";
+
+
 function App() {
   const [word, setWord] = useState({});
-  const [cardShow, setCardShow] = useState("front");
+  const [showWord, setShowWord] = useState(true);
 
   const handlerChangeWord = () => {
     let item = getWord();
     setWord(item);
+    setShowWord(true)
   };
 
   useEffect(() => {
@@ -20,8 +22,8 @@ function App() {
   return (
     <Box
       sx={{
-        backgroundColor: "#2193b0",
-        background: "linear-gradient(to right, #2980b9, #2c3e50)",
+        backgroundColor: "#757F9A",
+        background: "linear-gradient(to right, #D7DDE8, #757F9A)",
         height: "100vh",
         display: "flex",
         flexDirection: "column",
@@ -32,20 +34,30 @@ function App() {
       <Typography
         variant="h1"
         sx={{
-          color: "white",
+          color: "#232526",
           fontSize: "2.5em",
           textTransform: "uppercase",
           textAlign: "center",
           marginBottom: "40px",
+          fontWeight: 600
         }}
       >
         Talk Right
       </Typography>
-        <CardWord  word={word} />
-
-      <IconButton sx={{ margin: "20px 0px" }} onClick={handlerChangeWord}>
-        <CachedIcon sx={{ fontSize: "2em", color: "white" }} />
-      </IconButton>
+      <CardWord word={word} showWord={showWord} setShowWord={setShowWord} />
+      <Button
+        onClick={handlerChangeWord}
+        variant="contained"
+        sx={{
+          fontWeight: 600,
+          width: "200px",
+          margin: "20px 0",
+          background: "#232526",
+          "&:hover": { background: "#424345" },
+        }}
+      >
+        Next word
+      </Button>
     </Box>
   );
 }
