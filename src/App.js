@@ -4,7 +4,6 @@ import { CardWord } from "./components/CardWord";
 
 import { Box, Button, Typography } from "@mui/material";
 
-
 function App() {
   const [word, setWord] = useState({});
   const [showWord, setShowWord] = useState(true);
@@ -12,7 +11,7 @@ function App() {
   const handlerChangeWord = () => {
     let item = getWord();
     setWord(item);
-    setShowWord(true)
+    setShowWord(true);
   };
 
   useEffect(() => {
@@ -22,8 +21,8 @@ function App() {
   return (
     <Box
       sx={{
-        backgroundColor: "#757F9A",
-        background: "linear-gradient(to right, #D7DDE8, #757F9A)",
+        backgroundColor: " #232526",
+        background: "linear-gradient(to right,  #232526, #414345)",
         height: "100vh",
         display: "flex",
         flexDirection: "column",
@@ -34,12 +33,12 @@ function App() {
       <Typography
         variant="h1"
         sx={{
-          color: "#232526",
+          color: "#fff",
           fontSize: "2.5em",
           textTransform: "uppercase",
           textAlign: "center",
           marginBottom: "40px",
-          fontWeight: 600
+          fontWeight: 600,
         }}
       >
         Talk Right
