@@ -1,26 +1,25 @@
 # Talk Right
 
-¡Bienvenido a mi proyecto para mejorar la pronunciación en Inglés! Este proyecto, desarrollado en ReactJS y diseñado utilizando Material UI, tiene como objetivo ayudarte a mejorar tu pronunciación en inglés. Se basa en tarjetas interactivas que contienen palabras en inglés y su pronunciación correspondiente, también cuenta con su traducción al español.
+A simple app to practice the pronunciation of English words, It contains an interactive card which shows different words, which are stored in a JSON, shows their pronunciation and translation. In addition, the application makes requests to the "dictionaryapi" API, if it gives a response, the application allows you to listen to the pronunciation.
 
-## Características principales
+## Main Features
 
-- Utiliza ReactJS para crear una interfaz de usuario interactiva y dinámica.
-- El diseño de las tarjetas y la interfaz ha sido implementado utilizando Material UI para una apariencia moderna y atractiva.
-- El proyecto se basa en un conjunto de palabras almacenadas en un archivo JSON dentro del proyecto.
-- Las tarjetas muestran una palabra en un lado y su pronunciación en el otro lado. Puedes alternar entre las caras de las tarjetas para practicar y mejorar tu pronunciación.
-- El cambio de palabras se realiza de forma aleatoria para que puedas practicar con diferentes vocabularios.
+- Use ReactJS and Material UI to create an interactive and dynamic user interface.
+- The project is based on a set of words stored in a JSON file within the project.
+- The cards show a word, its tradition, its written and audio pronunciation.
+- The change of words is done randomly.
 
 ## Instalación
 
-1. Clona este repositorio en tu máquina local: git clone <URL del repositorio>
-2. Navega al directorio del proyecto: cd talk-right
-3. Instala las dependencias necesarias: npm install
-4. Inicia la aplicación en tu navegador: npm start
+1. Clone this repository to your computer: git clone <https://github.com/delfigica/talk-right.git>
+2. Navigate to the project directory: cd talk-right
+3. Install all dependencies: npm install
+4. Launch the app in your browser: npm start
 
 ## Uso
 
-- Una vez que la aplicación esté en ejecución, aparecerá una tarjeta con una palabra en un lado y su pronunciación en el otro lado.
-- Practica pronunciando la palabra en voz alta y luego gira la tarjeta para verificar la pronunciación correcta.
-- Haz clic en el botón de "Siguiente" para mostrar una nueva tarjeta con una palabra diferente y su pronunciación correspondiente.
-- Repite este proceso para seguir mejorando tu pronunciación en inglés.
-- Si quisieras cambiar las palabras, dirigete a la carpeta src < Data < data.js y modifica el JSON
+- Once the app is running, the card will appear with a random word, its pronunciation, and its translation.
+- Practice pronouncing the word until it is the same or similar to your pronunciation.
+- Click the "Next word" button to display a new card with a different word and its corresponding pronunciation.
+- Repeat this process to continue improving your English pronunciation.
+- If you would like to change the words, go to the src < Data < data.js folder and modify the JSON with the words you want, respecting the data model.
