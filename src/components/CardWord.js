@@ -25,6 +25,8 @@ export const CardWord = ({ word, showWord, setShowWord }) => {
       })
       .catch((err) => {
         console.log(err);
+        console.log(word)
+        setWordApi(undefined)
       });
   }, [word]);
 
@@ -35,7 +37,7 @@ export const CardWord = ({ word, showWord, setShowWord }) => {
 
   const theme = useTheme();
   const laptop = useMediaQuery(theme.breakpoints.up("lg"));
-  console.log(word);
+
   return (
     <Box
       sx={laptop ? {
