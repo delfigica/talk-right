@@ -85,8 +85,8 @@ export const words = [
   },
   {
     id: 15,
-    word: "Responsive",
-    pronunciation: "responsive",
+    word: "Responsible",
+    pronunciation: "respónsabl",
     translate: "responsable",
   },
   {
@@ -457,9 +457,9 @@ export const words = [
   },
   {
     id: 77,
-    word: "Some song",
-    pronunciation: "sam song",
-    translate: "Alguna canción",
+    word: "Some songs",
+    pronunciation: "sam songs",
+    translate: "Algunas canciones",
   },
   {
     id: 78,

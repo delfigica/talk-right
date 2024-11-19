@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/talk-right/static/css/main.cd56a0ac.css",
-    "main.js": "/talk-right/static/js/main.8acaba96.js",
+    "main.js": "/talk-right/static/js/main.ccce7c06.js",
     "index.html": "/talk-right/index.html",
     "main.cd56a0ac.css.map": "/talk-right/static/css/main.cd56a0ac.css.map",
-    "main.8acaba96.js.map": "/talk-right/static/js/main.8acaba96.js.map"
+    "main.ccce7c06.js.map": "/talk-right/static/js/main.ccce7c06.js.map"
   },
   "entrypoints": [
     "static/css/main.cd56a0ac.css",
-    "static/js/main.8acaba96.js"
+    "static/js/main.ccce7c06.js"
   ]
 }
