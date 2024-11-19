@@ -158,12 +158,12 @@ export const words = [
   {
     id: 27,
     word: "Vegetables",
-    pronunciation: "veshetabls",
+    pronunciation: "veshechbls",
     translate: "vegetales",
   },
   {
     id: 28,
-    word: "United States",
+    word: "The United States",
     pronunciation: "iunaititssteitss",
     translate: "Estados Unidos",
   },
@@ -199,7 +199,7 @@ export const words = [
   },
   {
     id: 34,
-    word: "Washes",
+    word: "Wash",
     pronunciation: "woshis",
     translate: "lavar",
   },
@@ -284,7 +284,7 @@ export const words = [
   {
     id: 48,
     word: "Hug",
-    pronunciation: "jiug",
+    pronunciation: "jiuch",
     translate: "abrazo",
   },
   {
@@ -529,9 +529,9 @@ export const words = [
   },
   {
     id: 89,
-    word: "Prepere",
+    word: "Prepare",
     pronunciation: "pripéar",
-    translate: "prepare",
+    translate: "preparé",
   },
   {
     id: 90,
